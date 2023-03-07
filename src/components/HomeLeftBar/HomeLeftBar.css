@@ -1,0 +1,47 @@
+.Homeleftbar_wrapper {
+  width: 100%;
+}
+
+.HomeLeftbar_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+.HomeLeftbar_Heam_nav {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  border: 1px solid transparent;
+}
+
+.HomeLeftbar_Heam_nav svg {
+  font-size: 14px;
+}
+.HomeLeftbar_Heam_nav:active {
+  background-color: gainsboro;
+  border: 1px solid gray;
+}
+
+.HomeLeftbar_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.HomeLeftbar_list_elmnt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  flex-wrap: nowrap;
+  text-align: left;
+}

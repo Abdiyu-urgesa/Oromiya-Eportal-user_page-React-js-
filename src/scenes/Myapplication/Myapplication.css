@@ -1,0 +1,53 @@
+.myapplication_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 10%;
+  width: 100%;
+}
+.profile_menu_icon {
+  float: right;
+  margin: 10px;
+}
+.side_profiles {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile_avatar {
+  margin: auto !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+.user_name {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.sideLinks {
+  height: 100%;
+}
+.menuitem_text {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.myapp_menuitem svg {
+  font-size: 18px;
+  opacity: 0.5;
+}
+.myapp_routes {
+  min-width: 60%;
+}
+
+@media (max-width: 800px) {
+  .myapplication_wrapper {
+    margin: 1%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,49 @@
+.Servicesleftbar_wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ServicesLeftbar_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 25px;
+}
+.ServicesLeftbar_Heam_nav {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  border: 1px solid transparent;
+}
+
+.ServicesLeftbar_Heam_nav svg {
+  font-size: 14px;
+}
+.ServicesLeftbar_Heam_nav:active {
+  background-color: gainsboro;
+  border: 1px solid gray;
+}
+
+.ServicesLeftbar_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.ServicesLeftbar_list_elmnt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+  flex-wrap: nowrap;
+  text-align: left;
+}

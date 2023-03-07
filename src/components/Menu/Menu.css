@@ -1,0 +1,30 @@
+.Navbars {
+  padding-bottom: 20px;
+  width: 100%;
+  color: #2b2b2b;
+}
+@media screen and (min-width: 920px) {
+  .Navbars {
+    display: none;
+  }
+}
+.NavbarWrappers {
+  list-style-type: none;
+}
+
+.NavbarElement {
+  padding: 10px;
+  justify-content: center;
+  text-align: left;
+}
+
+.menulink {
+  text-decoration: none;
+}
+.link:hover {
+  color: #e93a7d;
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

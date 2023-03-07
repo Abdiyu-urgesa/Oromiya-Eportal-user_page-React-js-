@@ -1,0 +1,93 @@
+.Nav_1 {
+  padding: 5px 5%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 13px;
+  overflow-x: hidden;
+}
+
+.Nav_2 {
+  height: 100%;
+  padding: 0px 5%;
+  background-color: #c4dff5 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 14px;
+  overflow-x: hidden;
+  font-weight: bold;
+}
+.Nav1_menus {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.Nav2_menus {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  justify-content: space-between;
+}
+.menu {
+  margin: 15px;
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.active,
+.menu:hover {
+  background-color: var(--text-white-color);
+}
+
+.Humberger_icon {
+  display: none !important;
+  margin: 10px;
+  margin-left: 10px;
+  padding: 0;
+  padding-left: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  gap: 10px;
+}
+.logo_img {
+  width: 50px;
+  height: 100%;
+  object-fit: contain;
+}
+.search_input #input-with-icon-textfield {
+  font-size: 12px !important;
+  padding: 5px !important;
+}
+/* inputfield */
+@media (max-width: 800px) {
+  .Humberger_icon {
+    display: flex !important;
+  }
+  .Nav1_menu,
+  .search_input,
+  .menu {
+    display: none;
+  }
+  .search_input {
+    display: none !important;
+  }
+}

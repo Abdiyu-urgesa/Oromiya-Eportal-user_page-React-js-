@@ -1,0 +1,26 @@
+.login_wrapper {
+  margin: 5% 30% !important;
+  padding: 0px;
+}
+.login_header {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: left;
+  font-size: 13px;
+}
+.login_input_container {
+  margin: 30px 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forget_pass {
+  font-size: 13px;
+  color: #333;
+}
+@media (max-width: 800px) {
+  .login_wrapper {
+    margin: 25% 5% !important;
+  }
+}

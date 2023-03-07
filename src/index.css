@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap");
+
+/* colors */
+:root {
+  --card-color: white;
+  --icon-secondary-color: gray;
+  --body-bg-color: #edf2f7;
+  --text-primary-color: #10131d;
+  --text-link-color: blue;
+  --text-white-color: white;
+  --btn-black-color: #111827;
+}
+
+/* default html element settings */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: var(--text-primary-color);
+  transition: 0.3s;
+}
+
+html {
+  font-family: "Poppins", "myFirstFont";
+  letter-spacing: 0rem;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--body-bg-color);
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+a {
+  text-decoration: none;
+}
+.black_btn {
+  background-color: var(--btn-black-color) !important;
+  font-size: 12px !important;
+}
